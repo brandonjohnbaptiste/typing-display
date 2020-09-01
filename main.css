@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade&display=swap');
+
+body {
+    display: grid;
+    margin: 0;
+    padding: 0;
+}
+
+.dis {
+    margin: auto;
+}
+
+h1 {
+    font-family: Scheherazade, sans-serif;
+    font-size: 5rem;
+}
