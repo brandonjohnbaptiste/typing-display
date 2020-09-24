@@ -1,5 +1,5 @@
 const txt_h1 = document.querySelector('#typing-display');
-var text_msg = 'This is the test message';
+const text_msg = document.getElementById('dis-input');
 
 function addLetter(text, pos, elm) {
     setTimeout(function() {
@@ -16,4 +16,4 @@ function typingDisplay(text) {
 }
 
 
-typingDisplay(text_msg);
+typingDisplay(text_msg.value);

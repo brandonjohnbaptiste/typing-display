@@ -14,3 +14,37 @@ h1 {
     font-family: Scheherazade, sans-serif;
     font-size: 5rem;
 }
+/* Input */
+.typing-input {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: .5rem 0 0 0;
+    text-align: center;
+}
+
+.typing-input input {
+    height: 50px;
+    width: 250px;
+    padding-left: .65rem;
+    box-shadow: 0px;
+    border: 0;
+    font-family: 'Roboto', serif;
+    background-color: #c4c4c4;
+}
+
+.typing-input input:focus {
+    border: 0;
+    outline: none;
+}
+
+.typing-input button {
+    width: 50px;
+    background-color: #3c3388;
+    border: 0;
+
+}
+
+.typing-input button:focus {
+    outline: 0;
+}
